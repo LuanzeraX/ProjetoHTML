@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/logoc.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+
+
+
+    <script type="text/javascript">
+        function validar() {
+            var n1 = document.getElementById("txtnome").value;
+            var n2 = document.getElementById("txtemail").value;
+            if (n1 == "") {
+                window.alert("Digite seu nome");
+                document.getElementById("txtnome").focus();
+                document.getElementById("txtnome").style.backgroundColor = '#ff0000';
+            } else if (n2 == "") {
+                window.alert("Digite seu email");
+                document.getElementById("txtemail").focus();
+                document.getElementById("txtemail").style.backgroundColor = '#ff0000';
+            } else {
+                document.getElementById("btnenvia").style.display = 'none';
+                document.getElementById("btnverifica").style.display = 'none';
+                window.alert("Entraremos em Contato");
+            }
+        }
+    </script>
+
+
+    <title>IfruitTech</title>
+</head>
+
+<body>
+
+
+
+    <main class="pai">
+      
+        <nav class="menu">
+           
+            <ul>
+              <li>  <img src="images/logoc.png"></li>
+                <li><a href="#container1"> IfruitTech</a></li> <br> |
+                <li><a href="#container2"> ZeroFomeSP</a></li> <br> |
+                <li><a href="#container3"> Agri Vertical</a></li> <br> |
+
+                <li><a href="#container5"> Equipe</a></li> <br> |
+                <li><a href="#container6"> Contato</a></li> <br> 
+
+
+            </ul>
+
+        </nav>
+
+       
+
+
+
+
+
+        <section class="container1" id="container1">
+            <div class="container1__cont">
+                <article id="div1__c1e">
+                    <h1 id="h1__c1e">IfruitTech</h1><br>
+                    <hr id="hr__c1e"><br>
+                    <p id="p__c1e">Nós somos uma startup focada na ajuda ao próximo !!</p>
+                    <p id="p__c1e">Criada em 2021, IfruitTech já vem fazendo a diferença na grande São Paulo. Além de seus programas sociais, IfruitTech ganhou destaque após a criação dos Projetos: ZeroFomeSP e AgriVerticalIfruit. </p>
+                    <p id="p__c1e">Com o objetivo de atender toda a população, usamos a tecnologia e inovação a favor do povo e assim faremos a cada dia uma São Paulo melhor.</p>
+                   
+                   <br>
+                    <hr id="hr__c1e"><br>
+
+                </article>
+
+                <figure id="div1__c1d">
+                    <img src="./images/fazenda-vertical.jpg" alt="fazenda-vertical" id="img__c1d">
+                </figure>
+            </div>
+        </section>
+
+        <section class="container2" id="container2">
+            <article id="div2__c2e">
+                <h1 id="h2__c2e">Zero Fome SP</h1><br>
+                <hr id="hr__c2e"><br>
+                <p id="p__c2e">Zero Fome SP é uma plataforma online de doações de alimentos para ONGs, pessoas de baixa renda e em situação de rua.</p><br>
+                <hr id="hr__c2e"><br><br>
+                <hr id="hr__c2e"><br>
+                <p id="p__c2e">Funciona da seguinte forma: as empresas ou pessoas físicas interessadas em aderir à solução, acessam a plataforma e se cadastram para realizarem suas doações de alimentos, incluindo o prazo de validade e condições. Por outro lado, os interessados ​​em doações ou do terceiro setor utilizam a geolocalização para solicitar alimentos disponíveis na plataforma. Então, o doador combina a transferência do alimento com a IfruitTech que é responsável ​​por seu armazenamento e manuseio.
+                    Deste modo, a doação é levada até o solicitante.
+                </p><br>
+                <hr id="hr__c2e"><br><br>
+                <hr id="hr__c2e"><br>
+                <p id="p__c2e">De toda doação feita na plataforma, 30% dela é destinada para pessoas em situção de rua e sem acesso a internet. Deste modo, semanalmente a IfruitTech faz a entrega dessas doações nos pontos de maior necessidade de São Paulo com o objetivo de levar o alimento para pessoas e familias que necessitam tanto dele no dia a dia.</p><br>
+                <hr id="hr__c2e"><br><br>
+
+
+            </article>
+
+            <figure id="div2__c2d">
+                <img src="./images/ZerofomeSP.jpg" alt="ZeroFomeSP" id="img__c2d">
+                <img src="./images/ZerofomeSP2.jpeg" alt="ZerofomeSP2" id="img__c2d">
+            </figure>
+
+
+        </section>
+
+        <section class="container4" id="container3">
+            <figure id="div2__c4d">
+                <img src="./images/Agricultura1.jpg" alt="Agricultura1" id="img__c4d">
+                <img src="./images/Agricultura2.jpg" alt="Agricultura2" id="img__c4d">
+            </figure>
+
+            <article id="div2__c4e">
+                <h1 id="h2__c4e">Agricultura Vertical Ifruit</h1><br>
+                <hr id="hr__c4e"><br>
+                <p id="p__c4e">A Agricultura Vertical Ifruit reduz o uso de agrotóxicos e melhora a qualidade das hortaliças na mesa da família. E tudo isso envolve o uso de tecnologia de controle ambiental.</p><br>
+                <hr id="hr__c4e"><br><br>
+                <hr id="hr__c4e"><br>
+                <p id="p__c4e"> As plantações verticais usam ferramentas modernas como aliadas importantes para aumentar a produtividade. Além do pequeno espaço usado para plantações, os produtores monitoram todas as safras por meio de inteligência artificial, Internet das Coisas (IoT) e Big Data.
+                </p><br>
+                <hr id="hr__c4e"><br><br>
+                <hr id="hr__c4e"><br>
+                <p id="p__c4e"> Deste modo, além de não fazer o uso de agrotóxicos e outros produtos anti-pragas por estarem sendo cultivadas na capital e não no interior, são comercializadas para a população com um preço mais acessível para atender todas as classes sociais. Além disso, 40% da produção semanal é destinada para o Projeto ZeroFomeSP para doações.  </p><br>
+                <hr id="hr__c4e"><br>
+
+
+            </article>
+
+        </section>
+
+
+
+        <section class="container4__mobile" id="container3">
+            <article id="div2__c4e">
+                <h1 id="h2__c4e">Agricultura Vertical Ifruit</h1><br>
+                <hr id="hr__c4e"><br>
+                <p id="p__c4e">A Agricultura Vertical Ifruit reduz o uso de agrotóxicos e melhora a qualidade das hortaliças na mesa da família. E tudo isso envolve o uso de tecnologia de controle ambiental.</p><br>
+                <hr id="hr__c4e"><br><br>
+                <p id="p__c4e"> As plantações verticais usam ferramentas modernas como aliadas importantes para aumentar a produtividade. Além do pequeno espaço usado para plantações, os produtores monitoram todas as safras por meio de inteligência artificial, Internet das Coisas (IoT) e Big Data.</p><br>
+                <hr id="hr__c4e"><br><br>
+                <p id="p__c4e">Deste modo, além de não fazer o uso de agrotóxicos e outros produtos anti-pragas por estarem sendo cultivadas na capital e não no interior, são comercializadas para a população com um preço mais acessível para atender todas as classes sociais. Além disso, 40% da produção semanal é destinada para o Projeto ZeroFomeSP para doações.  </p><br>
+                <hr id="hr__c4e"><br><br>
+            </article>
+
+            <figure id="div2__c4d">
+                <img src="./images/Agricultura1.jpg" alt="Agricultura1" id="img__c4d">
+                <img src="./images/Agricultura2.jpg" alt="Agricultura2" id="img__c4d">
+            </figure>
+
+        </section>
+
+
+
+        <section class="container3" id="container5">
+
+            <div class="apresentacao">
+                <h1 id="h1__c3e">Nosso Time</h1>
+                <br><br>
+            </div>
+
+
+
+            <article class="cartao">
+                <figure class="foto__card"><img src="./images/Yas.jpeg" alt="" class="foto__card"></figure>
+
+                <div class="descricao__card">
+                    <div class="descricard">
+                        <h2>Yasmim Bussoni</h2><br>
+                        <hr id="hr__c3c"><br>
+                        <p>Além de ser a idealizadora do Projeto ZeroFomeSP, é responsável pela logistica de toda startup e segurança. </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <figure class="foto__card"><img src="./images/Gih.jpeg" alt="" class="foto__card"></figure>
+
+                <div class="descricao__card">
+                    <div class="descricard">
+                        <h2>Giovanna dos Anjos</h2><br>
+                        <hr id="hr__c3c"><br>
+                        <p>Responsável pela publicidade e administradora das redes sociais da startup. </p>
+                    </div>
+                </div>
+            </article>
+
+
+
+            <article class="cartao">
+                <figure class="foto__card"><img src="./images/Lu.jpeg" alt="" class="foto__card"></figure>
+
+                <div class="descricao__card">
+                    <div class="descricard">
+                        <h2>Luan Santos</h2><br>
+                        <hr id="hr__c3c"><br>
+                        <p>Responsável pela transanção das doações do ZeroFomeSP, idealizador do Projeto Agri Vertical e CEO da IfruitTech. </p>
+                    </div>
+                </div>
+            </article>
+
+
+
+        </section>
+
+        <section class="contato" id="container6">
+
+            <h1 id="h2__contato">Venha fazer a diferença: </h1>
+
+            <article class="formulario">
+                <form id="frmcadastro" mthod="get">
+                    <p>
+                        <input class="caixa__form" type="text" id="txtnome" placeholder="Nome" maxlength="50">
+                    </p>
+                    <p>
+                        <input class="caixa__form" type="mail" id="txtemail" placeholder="Email" maxlength="50">
+                    </p>
+                    <p>
+                        <input class="caixa__form" id="mensagem__form" type="text" placeholder="Sua mensagem aqui...."
+                            name="Mensagem">
+                    </p>
+                    <input type="submit" id="btnenvia" style="display:none" class="form__botao" value="OK" />
+                    <button type="submit" id="btnverifica" class="form__botao" onClick="validar()">Enviar</button>
+                    <input type="reset" class="form__botao" value="Limpar os dados" />
+                </form>
+
+            </article>
+        </section>
+
+        <footer class="footer fundo__verde">
+
+
+            <article>
+                <h3>IfruitTech</h3>
+
+                <p>Telefone: (11)97987-3035</p>
+            </article>
+
+
+            <aside class="redes__sociais">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i><br>
+                <p>@IFRUITTECH</p>
+            </aside>
+
+
+
+            <p>
+                Rua Salem Baltazar, 1002 - SP
+            </p>
+
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>
