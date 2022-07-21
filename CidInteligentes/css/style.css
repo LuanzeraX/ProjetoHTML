@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Slabo 27px', serif;
+}
+
+/* header da página - ELEMENTO PAI DA LOGO E  MENU*/
+.header {
+    width: 100%;
+    height: 80px;
+    /*  background-color: #101d35;*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.header__titulo {
+
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.icone {
+    color: #dc143c;
+}
+
+/* fim header da página */
+
+
+/* container */
+.container {
+    width: 100%;
+    height: 92vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+.titulo {
+    color: blanchedalmond;
+
+
+
+    /*  display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;*/
+    text-align: center;
+    /* align-items: center;
+   justify-content: center;*/
+
+
+}
+
+.titulo h2 {
+
+    text-align: center;
+    font-size: 100px;
+
+
+
+}
+
+.titulo h3 {
+    font-size: 25px;
+}
+
+.titulo_texto p {
+    font-size: 16px;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(20, 18, 15);
+    opacity: 0.7;
+    margin: 80px;
+    letter-spacing: 2.5px;
+
+}
+
+.container2 {
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container2__box {
+
+    width: 45%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box__tema {
+    color: blanchedalmond;
+    margin-top: 95px;
+}
+
+.box__tema2 {
+    color: blanchedalmond;
+    margin-top: 150px;
+}
+
+
+
+.legenda {
+    background-color: black;
+    color: #fff;
+}
+
+.imagens1 {
+    width: 20vw;
+
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    transition: transform 0.5s;
+
+}
+
+.imagens1 img {
+    width: 100%;
+    height: 25vh;
+
+}
+
+.imagens1:hover {
+    transform: rotate(0deg);
+}
+
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.rotacao__esquerda {
+    transform: rotate(15deg);
+}
+
+.rotacao__direita {
+    transform: rotate(-15deg);
+
+}
+
+.box__titulo {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.box__subtitulo {
+    margin-bottom: 25px;
+}
+
+.box__obs {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.box__paragrafo {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.box__img {
+    margin: 30px;
+    width: 30vw;
+    height: 25vh;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0.95;
+}
+
+.footer h3 {
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+
+
+.fundo__azul {
+    background-color: #000000;
+}
+
+.imagemdefundo1 {
+    background-image: url(../imagens/austin.jpg);
+}
+
+.imagemdefundo2 {
+    background-image: url(../imagens/imagemdefundo2.jpg);
+}
